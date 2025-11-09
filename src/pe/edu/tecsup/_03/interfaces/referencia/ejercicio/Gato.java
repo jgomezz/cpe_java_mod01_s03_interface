@@ -21,4 +21,9 @@ public class Gato implements CaracteristicasAnimal{
     public boolean sonHerviboros() {
         return false;
     }
+
+    @Override
+    public String dameTipoAnimal() {
+        return "Gato";
+    }
 }

@@ -7,13 +7,11 @@ public class Aplicacion {
         CaracteristicasAnimal caracteristicas;
 
         caracteristicas = new Gato();
-        System.out.println("Gato:");
         imprimirCaracteristicas(caracteristicas);
 
         System.out.println();
 
         caracteristicas = new Perro();
-        System.out.println("Perro:");
         imprimirCaracteristicas(caracteristicas);
 
     }
@@ -21,6 +19,12 @@ public class Aplicacion {
 
     static void  imprimirCaracteristicas(CaracteristicasAnimal caracteristicas) {
 
+//        if ( caracteristicas instanceof Gato)
+//            System.out.println("Gato:");
+//        else if ( caracteristicas instanceof Perro)
+//            System.out.println("Perro:");
+
+        System.out.println(caracteristicas.dameTipoAnimal());
         System.out.println("Que comen: " + caracteristicas.queComen());
         System.out.println("Horas que duermen: " + caracteristicas.cuantasHorasDuermen());
         System.out.println("Razas que existen: " + caracteristicas.cuantasRazasExisten());

@@ -10,4 +10,5 @@ public interface CaracteristicasAnimal  {
 
     boolean sonHerviboros();
 
+    String dameTipoAnimal();
 }
