@@ -1,4 +1,4 @@
-package pe.edu.tecsup._05.interfaces.implementaciones.parciales;
+package pe.edu.tecsup._05.interfaces.implementaciones.parciales._intro;
 
 public interface HabilidadCantar {
 
