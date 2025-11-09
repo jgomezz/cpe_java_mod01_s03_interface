@@ -6,7 +6,12 @@ public class Aplicacion {
         //           0  1   2  3
         int nro[] = {12,23,33};
 
-        System.out.println(nro[3]);
+        try {
+            System.out.println(nro[3]);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        //System.out.println(nro[3]);
 
 
     }
