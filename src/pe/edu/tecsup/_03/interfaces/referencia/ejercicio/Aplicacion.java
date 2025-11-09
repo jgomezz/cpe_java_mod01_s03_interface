@@ -4,6 +4,7 @@ public class Aplicacion {
 
     public static void main(String[] args) {
 
+        /* Version 1
         CaracteristicasAnimal caracteristicas;
 
         caracteristicas = new Gato();
@@ -13,6 +14,16 @@ public class Aplicacion {
 
         caracteristicas = new Perro();
         imprimirCaracteristicas(caracteristicas);
+        //*/
+
+        // Version 2
+
+        CaracteristicasAnimal caracteristicas[] = { new Gato(), new Perro() };
+
+        for (CaracteristicasAnimal ca : caracteristicas) {
+            imprimirCaracteristicas(ca);
+            System.out.println();
+        }
 
     }
 
