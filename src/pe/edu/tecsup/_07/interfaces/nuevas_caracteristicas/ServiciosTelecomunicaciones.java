@@ -7,9 +7,12 @@ package pe.edu.tecsup._07.interfaces.nuevas_caracteristicas;
  */
 public interface ServiciosTelecomunicaciones {
 
-    void darAltaEntelefoniaResidencial();
+    //
+    void darAltaTelefoniaResidencial();
 
     void darAltaTelevisionPorCable();
+
+   //
 
     // Implementa metodo
     default String darAyudaEnLinea() {
