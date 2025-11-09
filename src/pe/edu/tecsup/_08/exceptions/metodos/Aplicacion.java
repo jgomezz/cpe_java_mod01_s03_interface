@@ -4,12 +4,12 @@ public class Aplicacion {
 
     public static void main(String[] args) {
 
-        int nro[] = {1, 2, 3, 4, 5, 6, 7, 12, 9, 13,11,12,18,14,15};
+        int nro[] = {1, 2, 3, 4, 5, 6, 7, 12, 9, 13, 11, 12, 18, 14, 15};
 
         try {
             for (int i = 0; i < nro.length; i++) {
-                if ( nro[i] == 13) {
-                    throw new Exception("Número anomalo " +  nro[i]);
+                if (nro[i] == 13) {
+                    throw new Exception("Número anomalo " + nro[i]);
                 }
                 System.out.println("Elemento : " + nro[i]);
             }
