@@ -12,6 +12,8 @@ public class Aplicacion {
             System.err.println(e.getMessage());
             System.err.println(e.getClass());
             e.printStackTrace();
+        } finally {
+            System.out.println("Finalizo el bloque try-catch");
         }
         //System.out.println(nro[3]);
 
