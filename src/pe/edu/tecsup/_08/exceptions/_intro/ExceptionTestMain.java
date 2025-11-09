@@ -1,4 +1,4 @@
-package pe.edu.tecsup._08.exceptions;
+package pe.edu.tecsup._08.exceptions._intro;
 
 public class ExceptionTestMain {
 
