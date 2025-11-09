@@ -16,14 +16,15 @@ public class Aplicacion {
         imprimirCaracteristicas(caracteristicas);
         //*/
 
-        // Version 2
 
-        CaracteristicasAnimal caracteristicas[] = { new Gato(), new Perro() };
+        //* Version 2
+        CaracteristicasAnimal caracteristicas[] = { new Gato(), new Perro(), new Ave() };
 
         for (CaracteristicasAnimal ca : caracteristicas) {
             imprimirCaracteristicas(ca);
             System.out.println();
         }
+        //*/
 
     }
 
