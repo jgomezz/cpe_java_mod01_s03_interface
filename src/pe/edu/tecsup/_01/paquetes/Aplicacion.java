@@ -1,5 +1,7 @@
 package pe.edu.tecsup._01.paquetes;
 
+import pe.edu.tecsup._01.paquetes.modelo.Libro;
+
 public class Aplicacion {
 
     public static void main(String[] args) {
