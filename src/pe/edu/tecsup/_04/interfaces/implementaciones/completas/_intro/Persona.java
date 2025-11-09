@@ -1,4 +1,4 @@
-package pe.edu.tecsup._04.interfaces.implementaciones.completas;
+package pe.edu.tecsup._04.interfaces.implementaciones.completas._intro;
 
 
 public class Persona implements HabilidadCantar, HabilidadCorrer{
