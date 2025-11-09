@@ -1,4 +1,4 @@
-package pe.edu.tecsup._03.interfaces.referencia;
+package pe.edu.tecsup._03.interfaces.referencia._intro;
 
 
 public class Persona implements HabilidadCantar{
