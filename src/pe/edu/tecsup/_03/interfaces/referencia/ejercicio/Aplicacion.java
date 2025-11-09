@@ -4,22 +4,28 @@ public class Aplicacion {
 
     public static void main(String[] args) {
 
-        CaracteristicasAnimal gato = new Gato();
+        CaracteristicasAnimal caracteristicas;
 
+        caracteristicas = new Gato();
         System.out.println("Gato:");
-        System.out.println("Que comen: " + gato.queComen());
-        System.out.println("Horas que duermen: " + gato.cuantasHorasDuermen());
-        System.out.println("Razas que existen: " + gato.cuantasRazasExisten());
-        System.out.println("Son herviboros: " + gato.sonHerviboros());
+        imprimirCaracteristicas(caracteristicas);
 
         System.out.println();
 
-        CaracteristicasAnimal perro = new Perro();
+        caracteristicas = new Perro();
         System.out.println("Perro:");
-        System.out.println("Que comen: " + perro.queComen());
-        System.out.println("Horas que duermen: " + perro.cuantasHorasDuermen());
-        System.out.println("Razas que existen: " + perro.cuantasRazasExisten());
-        System.out.println("Son herviboros: " + perro.sonHerviboros());
+        imprimirCaracteristicas(caracteristicas);
 
     }
+
+
+    static void  imprimirCaracteristicas(CaracteristicasAnimal caracteristicas) {
+
+        System.out.println("Que comen: " + caracteristicas.queComen());
+        System.out.println("Horas que duermen: " + caracteristicas.cuantasHorasDuermen());
+        System.out.println("Razas que existen: " + caracteristicas.cuantasRazasExisten());
+        System.out.println("Son herviboros: " + caracteristicas.sonHerviboros());
+
+    }
+
 }
