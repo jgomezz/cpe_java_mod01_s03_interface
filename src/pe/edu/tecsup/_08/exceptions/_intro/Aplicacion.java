@@ -9,7 +9,9 @@ public class Aplicacion {
         try {
             System.out.println(nro[3]);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
+            System.err.println(e.getClass());
+            e.printStackTrace();
         }
         //System.out.println(nro[3]);
 
