@@ -7,19 +7,19 @@ public class ExceptionTestMain {
 	public static void main(String[] args) {
 	
 
-		//*
+		/*
 		try {
 			// Van sentencias de codigo
 			int n = 4/0; // Esto genera una excepcion
 			
 		} catch (Exception e) {
 			// Handle exception
-			System.out.println("Hay una anomalia");
+			System.err.println("Hay una anomalia");
 		}
 
 		//*/
 		
-		/*
+		//*
 		try {
 			
 			cadena = "Un texto de ejemplo...";
@@ -27,16 +27,16 @@ public class ExceptionTestMain {
 			System.out.println("minuscula: " + minuscula);
 			
 			int nparticipantes = 20;	
-			int nbloques = 0;
+			int nbloques = 10;
 
 			if(nbloques == 0) {
 				// lanzar una excepcion controlada
 				throw new ArithmeticException("N bloques igual a cero");
 			}
 			
-			System.out.println( nparticipantes/nbloques );
+			System.out.println("Grupos :" +  nparticipantes/nbloques );
 			
-			int notas[] = new int[4];
+			int notas[] = new int[3];
 			notas[3] = 16;  // esto genera una exception 
 			
 		} catch (NullPointerException e) {
@@ -45,7 +45,9 @@ public class ExceptionTestMain {
 			System.err.println("Error en division: " + e.getMessage());
 		} catch (Exception e) {
 			System.err.println("Error general: " + e.getMessage());
-		}
+		} finally {
+            System.out.println("Finalizo el bloque try-catch");
+        }
 		
 		//System.out.println("Fin de la aplicacion sin problemas");
         //*/
