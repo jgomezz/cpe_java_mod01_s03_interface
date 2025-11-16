@@ -1,4 +1,4 @@
-package pe.edu.tecsup._09.record._01_intro;
+package pe.edu.tecsup._09.record;
 
 /**
  *  Solo son de modo lectura . Inmutables
