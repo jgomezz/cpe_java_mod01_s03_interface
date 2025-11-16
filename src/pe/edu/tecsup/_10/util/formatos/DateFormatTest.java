@@ -14,20 +14,29 @@ public class DateFormatTest {
 //		Calendar calendar = new GregorianCalendar();
 		Calendar calendar = GregorianCalendar.getInstance();
 		
-		//System.out.println( calendar );
+//		System.out.println( calendar );
 		
 		
 		// Documentacion oficial de la clase SimpleDateFormat
 		// https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html
 		// https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/text/SimpleDateFormat.html
 
+        String info = """ 
+                Formatos 
+                    dd - dia del mes (01-31)
+                    MM - mes del año (01-12)
+                    YYYY - año (2024)
+                """;
+
+        System.out.println(info );
+
 		//SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd/MMMM/YYYY hh:mm:ss");
-		
 		SimpleDateFormat sdf = new SimpleDateFormat(FORMAT_DATE);
-		System.out.println(sdf.format(calendar.getTime()));
+
+		System.out.println("Fecha actual : " + sdf.format(calendar.getTime()));
 		
-		DateFormat df =  DateFormat.getDateInstance(DateFormat.FULL);
-		System.out.println( df.format(calendar.getTime()) );
+//		DateFormat df =  DateFormat.getDateInstance(DateFormat.FULL);
+//		System.out.println( df.format(calendar.getTime()) );
 		
 	}
 	

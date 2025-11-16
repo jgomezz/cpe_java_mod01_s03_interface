@@ -6,10 +6,10 @@ public class TestScanner {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Ingrese un texto, para contar las letras: ");
+		System.out.print("Ingrese un texto, para contar las letras: ");
 		Scanner sc = new Scanner(System.in);		
 		String s1 = sc.nextLine();
-		System.out.println(s1.length());
+		System.out.println("La palabra ingresada tiene : " + s1.length() + " letras.");
 		
 		
 		
