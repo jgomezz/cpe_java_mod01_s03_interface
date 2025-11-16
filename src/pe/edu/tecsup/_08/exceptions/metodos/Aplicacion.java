@@ -19,9 +19,17 @@ public class Aplicacion {
             int valor = nro[20];
             */
 
+            int valor;
+
             System.out.println("Inicio del proceso...");
-            int valor =  obtenerValor(nro, 15);
+
+            valor =  obtenerValor(nro, 5);
             System.out.println("Valor obtenido: " + valor);
+
+            valor =  obtenerValor(nro, 15);
+            System.out.println("Valor obtenido: " + valor);
+
+
             System.out.println("Fin del proceso...");
 
         } catch (ArrayIndexOutOfBoundsException e) {
