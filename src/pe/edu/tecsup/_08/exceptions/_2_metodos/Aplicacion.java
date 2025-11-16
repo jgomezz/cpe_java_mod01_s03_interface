@@ -1,4 +1,4 @@
-package pe.edu.tecsup._08.exceptions.metodos;
+package pe.edu.tecsup._08.exceptions._2_metodos;
 
 public class Aplicacion {
 
